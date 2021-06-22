@@ -1,0 +1,68 @@
+.row{
+display:flex;
+width: 1060px;
+margin:auto;
+}
+
+body{
+    background-color: black;
+}
+
+#Car{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:57%;
+}
+
+#Clock{
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:30%;
+    top:43%
+    
+}
+
+#Button{
+   width:100px;
+   height:100px;
+    position:absolute;
+    left:42%;
+    top:40%;
+
+}
+
+#Frame{
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:20%;
+    top:15%;
+
+}
+
+#Sticker{
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:65%;
+    top:60%;
+
+}
+
+#Blueberry{
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:72%;
+    top:42%;
+}
+
+#star{
+     width:100px;
+     height:100px;
+     position:absolute;
+     left:70%;
+     right:50%;
+}

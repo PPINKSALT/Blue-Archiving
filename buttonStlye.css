@@ -1,0 +1,148 @@
+.col-1{width: 8.33%;padding: 10px 10px;}
+.col-2{width: 16.67%;padding: 10px 10px;}
+.col-3{width: 24.99%;padding: 10px 10px;}
+.col-4{width: 33.32%;padding: 10px 10px;}
+.col-5{width: 41.65%;padding: 10px 10px;}
+.col-6{width: 49.98%;padding: 10px 10px;}
+.col-7{width: 58.31%;padding: 10px 10px;}
+.col-8{width: 66.64%; padding: 10px 10px;}
+.col-9{width: 74.97%;padding: 10px 10px;}
+.col-10{width: 83.31%;padding: 10px 10px;}
+.col-11{width: 91.63%; padding: 10px 10px;}
+.col-12{width: 100%; padding: 10px 10px;}
+
+body{
+    margin:0px;
+}
+
+#container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    column-gap: normal;
+}
+
+#mainContents{
+    width: 1060px;
+    background-color:#009fe3;
+}
+.row{
+    display: flex;
+}
+
+#header{
+    width:100%;
+    height:120px; 
+    background-color:#5eccfb;
+    align-items: center;
+}
+#header p{
+    font-size:12px;
+    font-weight:bold;
+    color: black;
+    font-family:'Roboto', sans-serif;
+}
+
+:visited{
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+
+#main{
+    margin-top:50px;
+    width:100%;
+    background-color: #009fe3;
+}
+#main li{
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height:2;
+    letter-spacing: -10;
+    align-content:center;
+}
+#main h1{
+    font-size: 15px;
+    font-weight:bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height:2;
+    letter-spacing: -15;
+}
+
+
+#TextBox1{
+    padding:70px;
+    height: 120px;
+    background-color:white;
+    align-items:center;  
+}
+#Definition img{
+    margin-top:10px;
+}
+#Definition p{
+    font-size: 24px;
+    font-weight:bold;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    margin-top: -130px;
+    margin-left: 73px;
+}
+
+
+#TextBox2{
+    padding:70px;
+    height: 450px;
+    background-color:white;
+}
+#History img{
+    margin-top:150px;
+}
+#History p{
+    font-size: 24px;
+    font-weight:bold;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    margin-left:85px;
+    margin-top:-130px;
+}
+
+
+#TextBox3{
+    padding:70px;
+    height:450px;
+    background-color:white;
+}
+#Psycology img{
+    margin-top:150px;
+}
+#Psycology p{
+    font-size: 24px;
+    font-weight:bold;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    margin-left:70px;
+    margin-top:-130px;
+}
+
+
+
+#footer{
+    margin-top:100px;
+    width:100%;
+    height:125px;
+    background-color:#5eccfb;
+}
+
+#footer p{
+    display: flex;
+    font-size:10px;
+    font-weight: normal;
+    color:black;
+    font-family: 'Noto Sans KR', sans-serif;
+    column-gap: 20px;
+}
